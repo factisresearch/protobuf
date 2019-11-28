@@ -9,7 +9,11 @@ environment:
 dependencies:
   fixnum: ^0.10.9
   path: ^1.0.0
-  protobuf: '>=1.0.1 <2.0.0'
+  protobuf:
+    git:
+      url: https://github.com/factisresearch/protobuf.git
+      ref: e716cd39bd38f80edb879868aebdcee3287f488f
+      path: protobuf
   dart_style: ^1.0.6
 
 dev_dependencies:
